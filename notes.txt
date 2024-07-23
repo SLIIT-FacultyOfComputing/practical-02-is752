@@ -4,3 +4,12 @@ git remote set-url https://<token>@github.com/...
 git remote remove origin
 git remote add origin https://[TOKEN]@github.com/[REPO-OWNER]/[REPO-NAME]
 git push
+
+
+string name = "john" >> creat john string in stringpool
+name = "harry" >> creat harry in string in pool. the john string is not remove
+String name2 = "harry" >> dont creat a new harry string since harry is already in stringpool
+
+if we want to creat duplicate 
+	String name2  = new string("harry");
+
