@@ -12,14 +12,20 @@ public class part3 {
 
 		String fullname = String.format("%s, %s %s", last, first, middle);
 
-		for(char c : str.toCharArray()) {
+		/*for(char c : fullname.toCharArray()) {
 			if(c == 'a') {
 				c = '@'; 
 			}
 			if(c == 'e') {
 				c = '3';
 			}
-		}
+		}*/
+		
 
+		fullname = fullname.replace("a", "@");
+		fullname = fullname.replace("e", "3");
+		fullname = fullname.toUpperCase();
+
+		System.out.println(fullname);
 	}
 }

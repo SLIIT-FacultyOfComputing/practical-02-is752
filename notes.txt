@@ -1,0 +1,3 @@
+git remote set-url https://<token>@github.com/...
+				   repo url
+
