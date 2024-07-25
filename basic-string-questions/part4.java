@@ -12,5 +12,14 @@ public class part4 {
 		String last = kb.nextLine();
 
 		String fullname = String.format("%s, %s %s", last, first, middle);
+
+		System.out.print("Your full name: ");
+		System.out.println(fullname);
+
+		String[] parts = fullname.split("[ ,]+");
+
+		for(String a : parts) {
+			System.out.println(a);
+		}
 	}
 }
